@@ -1,0 +1,27 @@
+@@include('./layout/header.html', {
+    "title": "郑州恒之源",
+    "linkCssUrl": ["./styles/index.css", "./styles/component/navTitle.css"]
+})
+
+<!-- navTitle start -->
+@@include('./components/navTitle.html')
+<!-- navTitle end -->
+
+<!-- navTitle start -->
+@@include('./components/nav.html')
+<!-- navTitle end -->
+
+<div class="slider-wrapper">
+    <ul class="clearfix">
+        <li><a href="javascript:;"><img class="slider-img" src="./static/1.png" alt=""></a></li>
+    </ul>
+</div>
+
+<script>
+    const w = window.innerHeight
+    console.log(w)
+    
+</script>
+
+<!-- footer start -->
+@@include('./layout/footer.html')
